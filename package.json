@@ -60,16 +60,22 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.0.1",
+    "@aws-amplify/backend": "^1.13.0",
+    "@aws-amplify/backend-cli": "^1.4.6",
     "@rollup/plugin-typescript": "^12.1.1",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
     "astro": "^5.0.3",
     "autoprefixer": "^10.4.20",
+    "aws-cdk": "^2.175.1",
+    "aws-cdk-lib": "^2.175.1",
     "bootstrap": "^5.3.2",
     "bundlewatch": "^0.4.0",
     "clean-css-cli": "^5.6.3",
     "concurrently": "^9.1.0",
+    "constructs": "^10.4.2",
     "cross-env": "^7.0.3",
+    "esbuild": "^0.24.2",
     "eslint": "^8.55.0",
     "eslint-config-xo": "^0.44.0",
     "eslint-config-xo-typescript": "^4.0.0",
@@ -92,6 +98,10 @@
     "stylelint-config-twbs-bootstrap": "^15.1.0",
     "terser": "^5.31.6",
     "tslib": "^2.8.1",
-    "typescript": "^5.6.3"
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.12.0"
   }
 }

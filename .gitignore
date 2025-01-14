@@ -38,3 +38,10 @@ TODO
 test.html
 ad.js
 /.cache/
+
+
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
