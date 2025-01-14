@@ -3,18 +3,15 @@ frontend:
     phases:
         preBuild:
             commands:
-                - 'nvm install 20
-                - nvm use 20
-                - npm ci
-                - npm install npm-run-all --save-dev'
+                - 'nvm install 20 - nvm use 20 - npm ci - npm install npm-run-all --save-dev'
         build:
             commands:
-                - 'npm run build'
+                - 'npm run dev '
     build:
         commands:
             - 'npm run production'
     artifacts:
-        baseDirectory: /build
+        baseDirectory: /dist
         files:
             - '**/*'
 cache:
