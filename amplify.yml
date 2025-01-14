@@ -9,12 +9,12 @@ frontend:
                 - npm install npm-run-all --save-dev'
         build:
             commands:
-                - 'npm run dev'
+                - 'npm run build'
     build:
         commands:
             - 'npm run production'
     artifacts:
-        baseDirectory: /dist
+        baseDirectory: /build
         files:
             - '**/*'
 cache:
