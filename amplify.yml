@@ -3,7 +3,7 @@ frontend:
     phases:
         preBuild:
             commands:
-                - 'nvm install 20 - nvm use 20 - npm ci - npm install npm-run-all --save-dev'
+                - 'nvm install 20 - nvm use 20 - npm install -g npm-run-all - npm ci - npm install npm-run-all --save-dev'
         build:
             commands:
                 - 'npm run dev '
